@@ -1,0 +1,65 @@
+html, body {
+    background: url(../img/bg.jpg) no-repeat center;
+    min-height: 100%;
+    height: 100%;
+    background-size: auto;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.51) center center;
+}
+
+#logo img {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#icons {
+    margin-top: 50px;
+}
+
+#icons img {
+    margin: 0 auto;
+}
+
+.pure-u-lg-1-5 {
+    margin: 0 auto;
+}
+
+#serverip {
+    margin: 0 auto;
+}
+
+#serverip h1 {
+    color: white;
+    font-family: Avenir, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    opacity: .3;
+}
+
+#serverip h1 .online {
+    text-transform: uppercase;
+    color: lawngreen;
+}
+
+#serverip h3 {
+    color: white;
+    font-family: Avenir, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    opacity: .3;
+}
+
+iframe {
+    visibility: hidden;
+    position: absolute;
+    left: 0; top: 0;
+    height:0; width:0;
+    border: none;
+}

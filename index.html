@@ -1,0 +1,83 @@
+<!--
+    To change out the links on this page, in your text editor of choice, do "Ctrl + F"
+    on your keyboard and then type "location.href"
+    Where you see that, put the link to your pages between the single quotes.
+
+    Example:
+    location.href='http://www.google.com'
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MC Server Portal</title>
+
+    <!-- Eric Meyer Reset Stylesheet -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Pure Grid System -->
+    <!-- http://purecss.io/ -->
+    <link rel="stylesheet" href="css/pure.min.css">
+    <link rel="stylesheet" href="css/grids-responsive.min.css">
+
+    <!-- CSS3 Animation Framework -->
+    <!-- http://www.justinaguilar.com/animations/ -->
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+   <div class="wrapper">
+
+       <div id="logo" class="pure-g">
+           <div class="pure-u-1-1">
+                <img class="pure-img tossing" src="img/logo.png" />
+           </div>
+       </div>
+
+       <div id="icons" class="pure-g">
+           <div class="pure-u-md-1-2 pure-u-lg-1-5"><img class="pure-img" src="img/icons/Bans-1.png"
+              onmouseover="this.src='img/icons/Bans-2.png'"
+              onmouseout="this.src='img/icons/Bans-1.png'"
+              onclick="location.href='#'" width="200" height="200" alt="bans" />
+           </div>
+           <div class="pure-u-md-1-2 pure-u-lg-1-5"><img class="pure-img" src="img/icons/Donate-1.png"
+              onmouseover="this.src='img/icons/Donate-2.png'"
+              onmouseout="this.src='img/icons/Donate-1.png'"
+              onclick="location.href='#'" width="200" height="200" alt="donate" />
+           </div>
+           <div class="pure-u-md-1-2 pure-u-lg-1-5"><img class="pure-img" src="img/icons/Events-1.png"
+              onmouseover="this.src='img/icons/Events-2.png'"
+              onmouseout="this.src='img/icons/Events-1.png'"
+              onclick="location.href='#'" width="200" height="200" alt="events" />
+           </div>
+           <div class="pure-u-md-1-2 pure-u-lg-1-5"><img class="pure-img" src="img/icons/Forums-1.png"
+              onmouseover="this.src='img/icons/Forums-2.png'"
+              onmouseout="this.src='img/icons/Forums-1.png'"
+              onclick="location.href='#'" width="200" height="200" alt="forums" />
+           </div>
+           <div class="pure-u-md-1 pure-u-lg-1-5"><img class="pure-img" src="img/icons/Vote-1.png"
+              onmouseover="this.src='img/icons/Vote-2.png'"
+              onmouseout="this.src='img/icons/Vote-1.png'"
+              onclick="location.href='#'" width="200" height="200" alt="vote" />
+           </div>
+       </div>
+
+       <div id="serverip" class="pure-g">
+           <div class="pure-u-1-1">
+               <h1></h1>
+               <br />
+               <h3></h3>
+           </div>
+       </div>
+
+       <iframe src="functions.php"></iframe>
+   </div>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/scripts.js"></script>
+</body>
+</html>
